@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifeq ($(GMP_LINK_STATIC,1)
+ifeq ($(GMP_LINK_STATIC),1)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := gmp
